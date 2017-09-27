@@ -8,5 +8,5 @@ void Rect::SetDimension(double width, double height) {
 }
 
 void Rect::Print() {
-  std::cout << "Rect width " << width << ", height " << height << "\n";
+  std::cout << "Rect: width " << width << ", height " << height << "\n";
 }

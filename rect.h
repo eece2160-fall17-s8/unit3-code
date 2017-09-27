@@ -1,3 +1,6 @@
+#ifndef RECT_H_
+#define RECT_H_
+
 class Rect {
   double width;
   double height;
@@ -6,3 +9,5 @@ class Rect {
   void SetDimension(double width, double height);
   void Print();
 };
+
+#endif
